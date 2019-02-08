@@ -2,8 +2,7 @@
 //Dia: 07/02/2019
 //Hora: 12:33
 
-
-import java.util.Scanner;
+import java.util.Scanner;//Nos permite crear el Scaner para poder leer valores de entrada de varios tipos.
 
 class programa6 {
     public static void main(String[] args) {
