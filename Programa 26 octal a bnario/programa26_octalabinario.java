@@ -14,7 +14,7 @@ class programa26{
 	int a1=Integer.parseInt(a, 8);//Se convierte el numero octal a decimal.
 	String b=Integer.toBinaryString(a1);//a1 Se convierte en numero binario
 	
-	System.out.print("Numero Decimal: "+b);//Mostramos el resultado.
+	System.out.print("Numero Binario: "+b);//Mostramos el resultado.
 
 }
 }
