@@ -12,8 +12,8 @@ public static void main(String[] args){
 	System.out.print("Ingrese la medida de un lado del hexagono: ");//Pedimos que se ingerese el primer numero.
 	int s= sc.nextInt();//El scanner permite ingresar el numero al usuario y almacenarlo en a.
 
-	double a= (6*(s*s))/(4*Math.tan(Math.PI/6));
+	double a= (6*(s*s))/(4*Math.tan(Math.PI/6));//Usamos la formula para calcular el aera.
 
-	System.out.print("El area del hexagono es: "+a);		
+	System.out.print("El area del hexagono es: "+a);//Mostramos el resultado.		
 }
 }
