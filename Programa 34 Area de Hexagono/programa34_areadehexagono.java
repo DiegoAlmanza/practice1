@@ -10,7 +10,7 @@ public static void main(String[] args){
 	Scanner sc= new Scanner(System.in);//Se crea el Scanner para poder ingresar datos desde el teclado y poder almacenarlos.
 
 	System.out.print("Ingrese la medida de un lado del hexagono: ");//Pedimos que se ingerese el primer numero.
-	int s= sc.nextInt();//El scanner permite ingresar el numero al usuario y almacenarlo en a.
+	int s= sc.nextInt();//El scanner permite ingresar el numero al usuario y almacenarlo en s.
 
 	double a= (6*(s*s))/(4*Math.tan(Math.PI/6));//Usamos la formula para calcular el aera.
 
